@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Login</title>
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/log.css">
+	<link rel="stylesheet" href="js/injs.js">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+
+</head>
+
+<body class = "bgColor">
+
+	<!-- Detta är inloggen dett är hella rutan i mitten av skärmen -->
+		<section class = "center">	
+
+			<div class = "topSection">
+				<h1> Logga in här </h1>
+			</div>
+			<div class ="midSection">
+				
+				<form button onclick="makeCookie"  name="login" action="index.html" onsubmit="return checkPass()" >
+					
+					Username<input type="text" name="Name" ip="Name">
+					<p>Password <input type="password"  name="password"></p>
+					<p id="passStatus">  </p>
+					login now<input type="submit" value="Submit">
+
+				</form>
+					<a class = "button" href="index.html">Har du glömt lösenordet?</a>
+			</div>
+
+
+			<div class = botSection>
+					<a href="index.html">Skapa nytt konto</a>				
+			</div>
+
+		 </section>
+		 
+		 
+
+
+</body>
+
+
+<script src="js/injs.js"></script>
+
+</html>
