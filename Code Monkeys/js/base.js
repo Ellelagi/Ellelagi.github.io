@@ -45,5 +45,5 @@ function getCookie() {
 
 	console.log(cookie.split("=")[1]);
 
-	document.getElementById("formName").innerHTML = cookie.split("=")[1];
+	document.getElementById("putThatCookieDown").innerHTML = cookie.split("=")[1];
 }
