@@ -31,7 +31,7 @@ document.getElementById("formName").innerHTML = "" + fname;
 
 function makeCookie() {
 
-	document.cookie = "ip=Name";
+	document.cookie = "ip=testar";
 
 	console.log("make cookie");
 
