@@ -27,11 +27,9 @@ document.getElementById("formName").innerHTML = "" + fname;
 
 // Här börjar Cookie. som sparar din Inlogg
 
-
-
 function makeCookie() {
 
-	document.cookie = "ip=testar";
+	document.cookie = "Marcus";
 
 	console.log("make cookie");
 
