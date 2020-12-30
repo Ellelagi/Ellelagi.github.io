@@ -31,7 +31,7 @@ document.getElementById("formName").innerHTML = "" + fname;
 
 function makeCookie() {
 
-	document.cookie = "username=Marcus";
+	document.cookie = "Marcus";
 
 	console.log("make cookie");
 
@@ -43,7 +43,7 @@ function getCookie() {
 
 	console.log(cookie);
 
-	console.log(cookie.split("=")[1]);
+	console.log(cookie.split("=")[0]);
 
-	document.getElementById("putThatCookieDown").innerHTML = cookie.split("=")[1];
+	document.getElementById("putThatCookieDown").innerHTML = cookie.split("=")[0];
 }
