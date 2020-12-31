@@ -29,7 +29,7 @@ document.getElementById("formName").innerHTML = "" + fname;
 
 function makeCookie() {
 
-	document.cookie = "username=Marcus";
+	document.cookie = username == "ip=Name";
 
 	console.log("make cookie");
 
